@@ -1,0 +1,45 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+starlette==0.38.4
+
+# Database
+sqlalchemy==2.0.35
+pymysql==1.1.1
+cryptography==43.0.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# Data Processing & ML
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+openpyxl==3.1.5
+xlrd==2.0.1
+
+# PDF Generation
+reportlab==4.2.2
+
+# HTTP Client (for webhooks)
+httpx==0.27.2
+
+# Settings Management
+pydantic==2.9.2
+pydantic-settings==2.5.2
+email-validator==2.2.0
+
+# Prophet (optional - comment out if install fails)
+# prophet==1.1.5
+
+# Caching & Rate Limiting (built-in DB-backed)
+# No extra packages needed
+
+# SMTP Email
+# Built-in smtplib used
+
+# Scientific Computing (for anomaly detection)
+scipy==1.14.1
